@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #a41b1b;
-  --foreground: #149597;
+  --background: #f8f8f8;
+  --foreground: #0c6c01;
 }
 
 @theme inline {
@@ -15,7 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #45986d;
-    --foreground: #b41c1c;
+    --foreground: hsl(0, 38%, 3%);
   }
 }
 
